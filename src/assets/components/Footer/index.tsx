@@ -7,9 +7,5 @@ interface Props {
 }
 
 export const Footer: React.FC<Props> = ({ className }) => {
-  return (
-    <div className={cn(styles.footer, className)}>
-      <p className={styles.footer_text}>To-Do-Kanban-Board</p>
-    </div>
-  );
+  return <div className={cn(styles.footer, className)}>To-Do-Kanban-Board</div>;
 };
